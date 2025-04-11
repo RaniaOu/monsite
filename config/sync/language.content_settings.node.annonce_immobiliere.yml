@@ -1,0 +1,18 @@
+uuid: 92666541-1ca2-47ec-9750-604ed96a1261
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.annonce_immobiliere
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.annonce_immobiliere
+target_entity_type_id: node
+target_bundle: annonce_immobiliere
+default_langcode: site_default
+language_alterable: true

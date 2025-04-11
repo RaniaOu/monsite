@@ -1,5 +1,5 @@
-uuid: 1f10418c-e17d-400f-b34a-46ee38d6cf90
-langcode: en
+uuid: bdd2e895-3d54-4b19-bd20-15afba473859
+langcode: fr
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: AK83C-dOZEPruvi6GbkuhihWLnO4VtrbesqSC6izf4o
 id: webform_open_action
-label: 'Open webform'
+label: 'Ouvrir le webform'
 type: webform
 plugin: webform_open_action
 configuration: {  }

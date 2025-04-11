@@ -1,5 +1,5 @@
-uuid: 7d2b53d2-3231-4c12-8adf-318b746d3d19
-langcode: en
+uuid: 9e6b7fa6-1e79-4201-892a-6a04bc7a7351
+langcode: fr
 status: true
 dependencies:
   module:
@@ -10,7 +10,7 @@ dependencies:
 _core:
   default_config_hash: vcnRZRvBqTbK3nZ2M4_lKPlEGc8GjPzgaqapYUfyX8M
 id: redirect_delete_action
-label: 'Delete redirect'
+label: 'Supprimer une redirection'
 type: redirect
 plugin: redirect_delete_action
 configuration: {  }

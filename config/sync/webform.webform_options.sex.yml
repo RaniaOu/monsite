@@ -1,5 +1,5 @@
-uuid: 739f922f-b88d-4986-bba0-d4509aa22b9d
-langcode: en
+uuid: aee249b5-07a9-4273-a55c-f9f713d03c6f
+langcode: fr
 status: true
 dependencies:
   enforced:
@@ -8,9 +8,7 @@ dependencies:
 _core:
   default_config_hash: WRpxpwYpfcO_i0so7BV4QXxXlbPiSVppYmAV6DAz4c0
 id: sex
-label: Sex
-category: Demographic
+label: Sexe
+category: Démographique
 likert: false
-options: |
-  Male: Male
-  Female: Female
+options: "Mâle : Mâle\r\nFemelle : Femelle\n"

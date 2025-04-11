@@ -1,5 +1,5 @@
-uuid: 75895c42-a4cc-4660-86cd-2e18034a50d7
-langcode: en
+uuid: b35d75f8-60fd-4b64-a1b1-e8265d1ab1d9
+langcode: fr
 status: true
 dependencies:
   enforced:
@@ -8,12 +8,7 @@ dependencies:
 _core:
   default_config_hash: PEUoedWrfYEX7oZ8CcOukfBTVxar1cPSROX8534esuU
 id: titles
-label: Titles
-category: Demographic
+label: Titres
+category: Démographique
 likert: false
-options: |
-  Miss: Miss
-  Ms: Ms
-  Mr: Mr
-  Mrs: Mrs
-  Dr: Dr
+options: "Miss : Mlle\r\nMs : Mme\r\nMr : M.\r\nMrs : Mme\r\nDr : Dr\n"

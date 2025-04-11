@@ -1,0 +1,26 @@
+uuid: 54c4ba94-3a68-4f17-91af-4eab10f248d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_corps
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - paragraphs.paragraphs_type.paragraphe_d_article
+  module:
+    - text
+id: paragraph.paragraphe_d_article.field_corps
+field_name: field_corps
+entity_type: paragraph
+bundle: paragraphe_d_article
+label: Corps
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - restricted_html
+    - full_html
+field_type: text_long

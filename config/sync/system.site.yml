@@ -1,8 +1,8 @@
 _core:
   default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
-langcode: en
-uuid: 4e238f97-7e2a-4ed9-b234-1dac61056c3e
-name: 'Drush Site-Install'
+langcode: fr
+uuid: 75327d9a-b788-4d0b-9f3f-24857a2b7a69
+name: Drupal
 mail: admin@example.com
 slogan: ''
 page:
@@ -11,5 +11,5 @@ page:
   front: /node
 admin_compact_mode: false
 weight_select_max: 100
-default_langcode: en
+default_langcode: fr
 mail_notification: null

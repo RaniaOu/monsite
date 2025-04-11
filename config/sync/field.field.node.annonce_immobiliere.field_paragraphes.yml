@@ -1,0 +1,31 @@
+uuid: 269cc162-cfe8-4522-8b47-2a77d225eee8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraphes
+    - node.type.annonce_immobiliere
+    - paragraphs.paragraphs_type.paragraphe_d_article
+  module:
+    - entity_reference_revisions
+id: node.annonce_immobiliere.field_paragraphes
+field_name: field_paragraphes
+entity_type: node
+bundle: annonce_immobiliere
+label: Paragraphes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      paragraphe_d_article: paragraphe_d_article
+    negate: 0
+    target_bundles_drag_drop:
+      paragraphe_d_article:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

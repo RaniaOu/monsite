@@ -1,5 +1,5 @@
-uuid: 13fad5e6-1108-4767-bcda-0843955ba687
-langcode: en
+uuid: d4453bd7-7179-4f32-add2-6790733d3198
+langcode: fr
 status: true
 dependencies:
   enforced:
@@ -8,8 +8,8 @@ dependencies:
 _core:
   default_config_hash: yxhG0JmQs2HT-Ro6ZeDQboDc9ZWR4GglflTtyoqxK4A
 id: gender
-label: Gender
-category: Demographic
+label: Sexe
+category: Démographique
 likert: false
 options: |
   Man: Man

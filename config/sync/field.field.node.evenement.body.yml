@@ -1,0 +1,24 @@
+uuid: 51b856a7-a239-4eb0-ae70-fe9a82ce7938
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.evenement
+  module:
+    - text
+id: node.evenement.body
+field_name: body
+entity_type: node
+bundle: evenement
+label: Corps
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

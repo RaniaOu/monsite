@@ -1,5 +1,5 @@
-uuid: 1bfd8cd1-a93a-456e-ae94-22c316d85c63
-langcode: en
+uuid: 97cf10c9-13d4-4939-8a00-193d67a0d7a9
+langcode: fr
 status: true
 dependencies:
   enforced:
@@ -8,8 +8,8 @@ dependencies:
 _core:
   default_config_hash: s_SXZn2HbRGvTex-TLOCxz2oOnMYqtEZh8HD4_318QI
 id: industry
-label: Industry
-category: Demographic
+label: Secteur
+category: Démographique
 likert: false
 options: |
   Accounting/Finance: Accounting/Finance

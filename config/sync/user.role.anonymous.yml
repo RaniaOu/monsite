@@ -1,5 +1,5 @@
-uuid: c6f79532-a676-4b69-9664-59fae9aecfc6
-langcode: en
+uuid: 338e1c19-b6ad-4011-9016-02eaeeb4657b
+langcode: fr
 status: true
 dependencies:
   config:
@@ -22,6 +22,7 @@ permissions:
   - 'access content'
   - 'access hello'
   - 'access site-wide contact form'
+  - 'access user contact forms'
   - 'administer hello'
   - 'search content'
   - 'use text format restricted_html'

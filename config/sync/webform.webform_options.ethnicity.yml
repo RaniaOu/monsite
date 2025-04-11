@@ -1,5 +1,5 @@
-uuid: f42dac72-669d-4066-9da7-ec469d12119b
-langcode: en
+uuid: 63b86dd1-3ae3-4045-a1d7-b88e46b75ffc
+langcode: fr
 status: true
 dependencies:
   enforced:
@@ -8,8 +8,8 @@ dependencies:
 _core:
   default_config_hash: pIPgrAC82wE2GAk1mOv2UvMYv71YQe4VT8667QIYdvI
 id: ethnicity
-label: Ethnicity
-category: Demographic
+label: Ethnicité
+category: Démographique
 likert: false
 options: |
   Caucasian: Caucasian

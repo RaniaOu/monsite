@@ -1,5 +1,5 @@
-uuid: b65ac927-48e4-4d43-b2b9-9be80896fc59
-langcode: en
+uuid: c2688fd4-de62-439d-bfd4-ce9c614fb52c
+langcode: fr
 status: true
 dependencies:
   enforced:
@@ -8,8 +8,8 @@ dependencies:
 _core:
   default_config_hash: 4J2RPG4JmsD4Fm1NlIQY0JHkrJ08UUl0qTF0_EjUxvw
 id: relationship
-label: Relationship
-category: Demographic
+label: Relation
+category: Démographique
 likert: false
 options: |
   Parent: Parent

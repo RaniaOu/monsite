@@ -1,0 +1,63 @@
+uuid: 73abe425-c997-4889-b8fc-11aaff5f8546
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.annonce_immobiliere.field_description
+    - field.field.node.annonce_immobiliere.field_paragraphes
+    - field.field.node.annonce_immobiliere.field_photos
+    - field.field.node.annonce_immobiliere.field_prix
+    - field.field.node.annonce_immobiliere.field_type_de_bien
+    - image.style.carre_162
+    - node.type.annonce_immobiliere
+  module:
+    - swiper_formatter
+    - text
+    - user
+id: node.annonce_immobiliere.teaser
+targetEntityType: node
+bundle: annonce_immobiliere
+mode: teaser
+content:
+  field_description:
+    type: text_default
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_photos:
+    type: swiper_formatter_image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: carre_162
+      image_loading:
+        attribute: lazy
+      template: carre_162
+      caption: ''
+      custom_link: ''
+      destination: null
+      swiper_access: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_prix:
+    type: number_integer
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  field_paragraphes: true
+  field_type_de_bien: true
+  langcode: true

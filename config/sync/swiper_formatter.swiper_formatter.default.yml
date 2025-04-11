@@ -1,11 +1,11 @@
-uuid: e36539b6-58e8-4e58-9f06-256834dd1dba
-langcode: en
+uuid: 16ef244a-a3d9-4f58-b15f-d0e105647fec
+langcode: fr
 status: true
 dependencies: {  }
 _core:
   default_config_hash: AbnzYRm4dIFKiZpmjFBaN3YrpdI-LptDaHRzt109Uew
 id: default
-label: Default
+label: 'Par défaut'
 description: 'This default template is mostly for demonstration purpose, feel free to edit it or create (as many) new ones.'
 breakpoint: false
 swiper_options:

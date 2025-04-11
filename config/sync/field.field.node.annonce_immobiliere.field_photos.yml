@@ -1,4 +1,4 @@
-uuid: cd1199b1-0d47-4ff2-99b2-2723cd1277ff
+uuid: b6b0357e-a4ef-4ca8-be03-9aaff16a397b
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,14 @@ dependencies:
     - field.storage.node.field_photos
     - node.type.annonce_immobiliere
   module:
+    - content_translation
     - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
 id: node.annonce_immobiliere.field_photos
 field_name: field_photos
 entity_type: node
@@ -14,7 +21,7 @@ bundle: annonce_immobiliere
 label: Photos
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

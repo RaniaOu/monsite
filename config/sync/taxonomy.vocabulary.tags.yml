@@ -1,11 +1,11 @@
-uuid: 66996d26-379d-46b7-af89-b141bba24f21
-langcode: en
+uuid: 1ffe7387-e71e-40fb-8bd5-998d596e37f8
+langcode: fr
 status: true
 dependencies: {  }
 _core:
   default_config_hash: iTEzwrEQ_4JIb-OYGiqzyF2TmMgWyWayresXcWgwGWM
-name: Tags
+name: Étiquettes
 vid: tags
-description: 'Use tags to group articles on similar topics into categories.'
+description: 'Utilisez les étiquettes pour regrouper les articles sur des sujets similaires dans des catégories.'
 weight: 0
 new_revision: false

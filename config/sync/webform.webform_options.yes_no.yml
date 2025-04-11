@@ -1,5 +1,5 @@
-uuid: d2424d10-17b3-4b1d-8386-d445e13a2381
-langcode: en
+uuid: 9274b6e3-5855-4ac3-86aa-c0c7b91ab759
+langcode: fr
 status: true
 dependencies:
   enforced:
@@ -8,9 +8,7 @@ dependencies:
 _core:
   default_config_hash: W88NYg31DbaVNQx1Uir_dwwXHVtF09QOq4VBGsH1Snk
 id: yes_no
-label: Yes/No
-category: General
+label: Oui/Non
+category: Général
 likert: false
-options: |
-  Yes: Yes
-  No: No
+options: "Oui: Oui\r\nNon: Non\n"

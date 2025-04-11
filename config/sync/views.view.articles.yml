@@ -1,13 +1,13 @@
-uuid: 6d2e33bf-153c-40e4-a389-bbe2c220de8b
+uuid: 8ce059e2-e69f-4a40-99a1-627bc5a55b46
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - node.type.article
+    - system.menu.main
   module:
     - node
-    - swiper_formatter
     - user
 id: articles
 label: Articles
@@ -77,7 +77,7 @@ display:
         options:
           offset: 0
           pagination_heading_level: h4
-          items_per_page: 10
+          items_per_page: 12
           total_pages: null
           id: 0
           tags:
@@ -149,7 +149,16 @@ display:
           value:
             article: article
       style:
-        type: swiper_formatter
+        type: grid
+        options:
+          uses_fields: false
+          columns: 3
+          automatic_width: true
+          alignment: horizontal
+          row_class_custom: ''
+          row_class_default: true
+          col_class_custom: ''
+          col_class_default: true
       row:
         type: 'entity:node'
         options:
@@ -184,14 +193,11 @@ display:
       display_extenders: {  }
       path: articles
       menu:
-        type: tab
+        type: normal
         title: Articles
-        description: ''
-        weight: 0
-        expanded: false
+        weight: -49
         menu_name: main
         parent: ''
-        context: '0'
     cache_metadata:
       max-age: -1
       contexts:

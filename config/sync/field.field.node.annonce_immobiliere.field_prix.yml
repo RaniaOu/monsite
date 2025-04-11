@@ -1,4 +1,4 @@
-uuid: 51bf1e04-39b7-4464-8ef1-247c874a7819
+uuid: f3bb5d29-9dd1-4c7b-a176-a3bdbaf7ef2d
 langcode: en
 status: true
 dependencies:
@@ -11,13 +11,13 @@ entity_type: node
 bundle: annonce_immobiliere
 label: Prix
 description: ''
-required: false
-translatable: false
+required: true
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
   min: null
   max: null
   prefix: ''
-  suffix: €
+  suffix: ' €'
 field_type: integer

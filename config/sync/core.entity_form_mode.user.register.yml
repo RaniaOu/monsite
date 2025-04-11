@@ -1,5 +1,5 @@
-uuid: d51082d2-0f3c-40f0-84e9-bb9379115e74
-langcode: en
+uuid: b9c87046-80ad-4f1a-965e-efa3c0fee442
+langcode: fr
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: 5pE_4hurqtIlZN3XDi7eTo5RG13BMG0Rh9HYlRI3h8U
 id: user.register
-label: Register
+label: "S'inscrire"
 description: ''
 targetEntityType: user
 cache: true

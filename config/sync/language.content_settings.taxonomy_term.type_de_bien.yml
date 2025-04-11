@@ -1,0 +1,11 @@
+uuid: 504e871d-2ad5-472f-b909-b22597f2d1bb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.type_de_bien
+id: taxonomy_term.type_de_bien
+target_entity_type_id: taxonomy_term
+target_bundle: type_de_bien
+default_langcode: site_default
+language_alterable: false

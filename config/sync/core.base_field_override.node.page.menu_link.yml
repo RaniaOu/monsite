@@ -1,0 +1,20 @@
+uuid: 3e96ddbb-2655-4aad-a7e1-5745fca2da51
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.menu_link
+field_name: menu_link
+entity_type: node
+bundle: page
+label: 'Lien du menu'
+description: "Lien de menu calculé pour le nœud (disponible uniquement pendant l'enregistrement du nœud)."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

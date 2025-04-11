@@ -1,5 +1,5 @@
-uuid: 4252ada8-ae9c-41b5-8a68-ec923f311b54
-langcode: en
+uuid: b81fdcca-6881-4908-8eb0-1b1c599b1c91
+langcode: fr
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: node_syndicate_block
 settings:
   id: node_syndicate_block
-  label: 'RSS feed'
+  label: 'Flux RSS'
   label_display: '0'
   provider: node
   block_count: 10

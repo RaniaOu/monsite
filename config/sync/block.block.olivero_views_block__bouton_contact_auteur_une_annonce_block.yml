@@ -1,0 +1,32 @@
+uuid: d17fb1b0-dda2-46b8-908e-3cb05d212223
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.bouton_contacter_l_auteur_d_une_annonce
+  module:
+    - node
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__bouton_contact_auteur_une_annonce_block
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:bouton_contacter_l_auteur_d_une_annonce-block_1'
+settings:
+  id: 'views_block:bouton_contacter_l_auteur_d_une_annonce-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      annonce_immobiliere: annonce_immobiliere

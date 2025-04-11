@@ -1,5 +1,5 @@
-uuid: 3d250e2a-3faa-484a-9393-b4c8b555e662
-langcode: en
+uuid: 150b5414-5ed4-46cb-9b44-e109e2d90b5d
+langcode: fr
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: MKmZlPRk3OJKNcYdYxSeZGQUh7LMah6MRShfkzch4bk
 id: webform_submission_make_lock_action
-label: 'Lock submission'
+label: 'Verrouiller la soumission'
 type: webform_submission
 plugin: webform_submission_make_lock_action
 configuration: {  }

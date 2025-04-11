@@ -1,5 +1,5 @@
-uuid: 619b8f59-a411-4f0b-a839-4d549b24da93
-langcode: en
+uuid: 3b83c2f0-0f43-46d2-a6b5-233068640b56
+langcode: fr
 status: true
 dependencies:
   enforced:
@@ -8,8 +8,8 @@ dependencies:
 _core:
   default_config_hash: RKkc6tf1VudvYiOtwPCf3Tp_EoA6fov6BFC34D7gMoQ
 id: size
-label: Size
-category: General
+label: Taille
+category: Général
 likert: false
 options: |
   Extra Small: Extra Small

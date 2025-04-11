@@ -1,5 +1,5 @@
-uuid: 0f627930-c4dd-41ef-b469-f09ba444dac1
-langcode: en
+uuid: c45556bf-f35f-4dbe-a765-3c73d6405a08
+langcode: fr
 status: true
 dependencies:
   enforced:
@@ -8,8 +8,8 @@ dependencies:
 _core:
   default_config_hash: d4mxS_CxdzHZK4WaGQf1H3m-Uubm5HPbu9U4ydzscuo
 id: state_province_names
-label: 'State/Province names'
-category: Geographic
+label: 'Noms des États et provinces'
+category: Géographique
 likert: false
 options: |
   Alabama: Alabama

@@ -1,0 +1,33 @@
+uuid: b8590000-b31d-4d97-aff4-708c64a5a531
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.evenement.body
+    - field.field.node.evenement.field_date
+    - node.type.evenement
+  module:
+    - text
+    - user
+id: node.evenement.teaser
+targetEntityType: node
+bundle: evenement
+mode: teaser
+content:
+  body:
+    type: text_trimmed
+    label: hidden
+    settings:
+      trim_length: 200
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_date: true
+  langcode: true

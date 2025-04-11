@@ -1,5 +1,5 @@
-uuid: ae965fcd-73d7-4593-a9e2-d665969f8621
-langcode: en
+uuid: 3933ebdb-a266-4090-8336-e7384bed7e80
+langcode: fr
 status: true
 dependencies:
   enforced:
@@ -8,8 +8,8 @@ dependencies:
 _core:
   default_config_hash: LkO63Zl2cP_l9YdjzWI8dWoD9uD0pytkPiUiUM2bo9A
 id: phone_types
-label: 'Phone type'
-category: Demographic
+label: 'Type de téléphone'
+category: Démographique
 likert: false
 options: |
   Home: Home

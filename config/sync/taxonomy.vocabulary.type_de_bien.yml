@@ -1,0 +1,9 @@
+uuid: a2b0c3a1-f095-44cc-b939-40c246939020
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Type de bien'
+vid: type_de_bien
+description: null
+weight: 0
+new_revision: false

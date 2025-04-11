@@ -1,5 +1,5 @@
-uuid: 84630a09-2b02-4eb2-9481-225235965236
-langcode: en
+uuid: 3d960eba-cee9-49e3-b3a1-332645310a69
+langcode: fr
 status: true
 dependencies:
   enforced:
@@ -8,12 +8,7 @@ dependencies:
 _core:
   default_config_hash: qBS2TmfAJB37Qn3TnrNM8x4AWimmDapcizzRllgo0fo
 id: likert_would_you
-label: 'Likert: Would You'
+label: 'Likert : Le feriez-vous'
 category: Likert
 likert: true
-options: |
-  1: Definitely Not
-  2: Probably Not
-  3: Not Sure
-  4: Probably
-  5: Definitely
+options: "1: Absolument pas\r\n2: Probablement pas\r\n3: Pas sûr\r\n4: Probablement\r\n5: Absolument\n"

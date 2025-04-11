@@ -1,5 +1,5 @@
-uuid: 12f82044-0b65-49f3-9ea7-c25a91f05944
-langcode: en
+uuid: 61b5809a-c42a-4612-8cba-18f7112e6727
+langcode: fr
 status: true
 dependencies:
   enforced:
@@ -9,7 +9,7 @@ _core:
   default_config_hash: cR3A6XXinVGC9g5vLS-vVvTC2ppZXRNXLPWA8xBUMew
 id: province_codes
 label: 'Province codes'
-category: Geographic
+category: Géographique
 likert: false
 options: |
   AB: Alberta

@@ -1,4 +1,4 @@
-uuid: def0bcef-f20b-424d-9434-aaf0eb9e319b
+uuid: a12c0b26-a504-47ee-b3f4-8061135466f0
 langcode: en
 status: true
 dependencies:
@@ -8,7 +8,7 @@ id: node.annonce_immobiliere.title
 field_name: title
 entity_type: node
 bundle: annonce_immobiliere
-label: 'Annonce immobilière'
+label: Nom
 description: ''
 required: true
 translatable: true
