@@ -1,0 +1,34 @@
+hello.page:
+  path: '/hello/page/{number}'
+  defaults:
+    _title: 'Page'
+    _controller: '\Drupal\hello\Controller\HelloController'
+    number : 10
+  requirements:
+    _permission: 'access content'
+    number : '/d+'
+
+
+hello.node:
+  path: '/hello/node'
+  defaults:
+    _controller: '\Drupal\hello\Controller\NodeController'
+    _title: 'Liste des nœuds'
+  requirements:
+    _permission: 'access content'
+
+hello.form:
+  path: '/hello/form'
+  defaults:
+    _title: 'Form'
+    _form: 'Drupal\hello\Form\ExampleForm'
+  requirements:
+    _hello: '24'
+
+hello.settings:
+  path: '/admin/config/system/settings'
+  defaults:
+    _title: 'Hello settings'
+    _form: 'Drupal\hello\Form\SettingsForm'
+  requirements:
+    _permission: 'administer hello'

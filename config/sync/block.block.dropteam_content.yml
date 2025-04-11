@@ -1,0 +1,22 @@
+uuid: 61fecad7-179c-4fd4-b517-06db5e0ef577
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dropteam
+_core:
+  default_config_hash: 55rxWglkEuAZrENmm09MJvJw2KRD1kHlyQloxREbJgs
+id: dropteam_content
+theme: dropteam
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

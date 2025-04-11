@@ -1,0 +1,27 @@
+uuid: 0ce874af-5caf-4fb5-81c4-75a4e984a541
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - dropteam
+_core:
+  default_config_hash: Fpel_pHnMa0bo20UhVuNGHVlsziuuWOhNhZ-j820H1A
+id: dropteam_main_menu
+theme: dropteam
+region: primary_menu
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

@@ -1,0 +1,24 @@
+/vendor/
+
+# Ignore configuration files that may contain sensitive information.
+/web/sites/*/settings*.php
+/web/sites/*/services*.yml
+
+# Ignore paths that contain user-generated content.
+/web/sites/*/files
+/web/sites/*/private
+
+# Ignore multi-site test environment.
+/web/sites/simpletest
+
+/web/core
+/web/modules/contrib
+/web/themes/contrib
+/web/profiles/contrib
+
+.ddev
+*.DS_Store
+.idea
+.vscode
+*.sql
+*.sql.gz

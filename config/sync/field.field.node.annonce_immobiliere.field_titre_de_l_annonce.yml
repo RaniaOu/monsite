@@ -1,0 +1,19 @@
+uuid: 5765146a-64d0-4e58-873a-d0eacac4a21d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titre_de_l_annonce
+    - node.type.annonce_immobiliere
+id: node.annonce_immobiliere.field_titre_de_l_annonce
+field_name: field_titre_de_l_annonce
+entity_type: node
+bundle: annonce_immobiliere
+label: 'Titre annonce'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

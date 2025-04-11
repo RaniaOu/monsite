@@ -1,0 +1,8 @@
+services:
+  access_check.hello.hello:
+    class: Drupal\hello\Access\HelloAccessChecker
+    tags:
+      - { name: access_check, applies_to: _hello }
+    arguments:
+      - '@entity_type.manager'
+      - '@datetime.time'

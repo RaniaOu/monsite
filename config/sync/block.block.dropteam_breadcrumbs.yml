@@ -1,0 +1,22 @@
+uuid: b6877e5a-4397-4b56-a966-64140cf6d1eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dropteam
+_core:
+  default_config_hash: 679xn9rcI0GjV7C-YCuaVJ2ENY5AYVD3Qu2W4-d40yE
+id: dropteam_breadcrumbs
+theme: dropteam
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,5 @@
+name: 'Hello'
+type: module
+description: 'Hello description'
+package: Training
+core_version_requirement: ^10 || ^11

@@ -1,0 +1,23 @@
+uuid: ec24edc1-4f76-4ff1-b817-fa56332ca021
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - dropteam
+_core:
+  default_config_hash: Oz4e3Iw0R1yMr9cLheCLKCzVpVSpnCk0sQwU5yOlfUQ
+id: dropteam_search_form_narrow
+theme: dropteam
+region: sidebar_first
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: null
+visibility: {  }

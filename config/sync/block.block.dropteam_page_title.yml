@@ -1,0 +1,20 @@
+uuid: e7dccbd0-0d47-446c-8cda-f8377a011718
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dropteam
+_core:
+  default_config_hash: YAwN70GOaxX9fXvXfN7_iPji5TIetQj0A6qYSeCMalI
+id: dropteam_page_title
+theme: dropteam
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

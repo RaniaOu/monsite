@@ -1,0 +1,22 @@
+uuid: cb301a21-60ba-4be2-9fba-1a3aa84bb119
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dropteam
+_core:
+  default_config_hash: Q28OyRezFqKiNBXTtb1tkZ3Do5CL3B9tfvVKvvB1aL4
+id: dropteam_powered
+theme: dropteam
+region: footer_fifth
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

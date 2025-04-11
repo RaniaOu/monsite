@@ -1,0 +1,72 @@
+uuid: 3f1d7616-81d9-419b-a372-d5d1d732810c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.annonce_immobiliere.field_description
+    - field.field.node.annonce_immobiliere.field_para
+    - field.field.node.annonce_immobiliere.field_photos
+    - field.field.node.annonce_immobiliere.field_prix
+    - field.field.node.annonce_immobiliere.field_titre_de_l_annonce
+    - node.type.annonce_immobiliere
+  module:
+    - entity_reference_revisions
+    - image
+    - text
+    - user
+id: node.annonce_immobiliere.default
+targetEntityType: node
+bundle: annonce_immobiliere
+mode: default
+content:
+  field_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_para:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_photos:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_prix:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_titre_de_l_annonce:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  langcode: true

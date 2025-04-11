@@ -1,0 +1,29 @@
+{#
+Updated theme implementation for displaying a paragraph using Bootstrap with adjusted margins and padding.
+#}
+{%
+  set classes = [
+  'paragraph',
+  'paragraph--type--' ~ paragraph.bundle|clean_class,
+  view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+  not paragraph.isPublished() ? 'paragraph--unpublished'
+]
+%}
+
+{% block paragraph %}
+  <div{{ attributes.addClass(classes).addClass('mt-3') }}>
+    <div class="container">
+      <div class="card border-0 shadow-sm">
+        {{ content.field_image }}
+        <div class="card-body">
+          <h5 class="card-title fw-bold mb-3">
+            {{ content.field_titre }}
+          </h5>
+          <p class="card-text text-muted">
+            {{ content.field_corps }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock paragraph %}

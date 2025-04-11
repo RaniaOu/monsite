@@ -1,0 +1,27 @@
+uuid: c3d163d5-30ba-4806-8653-c571ad58c9c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - dropteam
+_core:
+  default_config_hash: pQr8MTFlQ8XThSj34WxLXKHAZj7FLR2C78r0oY_kvKY
+id: dropteam_account_menu
+theme: dropteam
+region: secondary_menu
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

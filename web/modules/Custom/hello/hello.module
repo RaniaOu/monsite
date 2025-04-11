@@ -1,0 +1,13 @@
+<?php
+
+
+function hello_theme(){
+  return [
+    'hello_block'=> [
+      'variables' => [
+        'message' => NULL,
+      ],
+    'template'=> 'hello-block',
+  ]
+    ];
+}
