@@ -22,6 +22,7 @@
         "drupal/core-project-message": "^11.1",
         "drupal/core-recommended": "^11.1",
         "drupal/devel": "^5.3",
+        "drupal/environment_indicator": "^4.0",
         "drupal/module_filter": "^5.0",
         "drupal/paragraphs": "^1.19",
         "drupal/pathauto": "^1.13",
